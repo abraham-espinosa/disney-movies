@@ -1,0 +1,9 @@
+.nav-brand {
+color: rgb(12, 58, 173);
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+letter-spacing: .1rem;
+}
+
+.nav-collapse{
+    max-height: 100px;
+}
