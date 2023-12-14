@@ -19,7 +19,7 @@ function App() {
   // Get all movies and set movies
   const getMovies = async () =>{
     try {
-      const response = await api.get("/api/v1/movies");
+      const response = await api.get("/v1/movies");
       setMovies(response.data);
     } 
     catch(err) {
@@ -30,7 +30,7 @@ function App() {
   // Get movie by id and set movie and reviews
   const getMovieData = async (movieId) => {
     try {
-      const response = await api.get(`/api/v1/movies/${movieId}`);
+      const response = await api.get(`/v1/movies/${movieId}`);
       const oneMovie = response.data;
       setMovie(oneMovie);
       setReviews(oneMovie.reviewIds);

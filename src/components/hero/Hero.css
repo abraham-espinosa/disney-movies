@@ -19,7 +19,7 @@ carousel-container{
 
 .movie-detail{
     position: absolute;
-    top:200px;
+    top: 200px;
     display: flex;
     justify-content: space-evenly;
     width:100%;
@@ -70,6 +70,18 @@ carousel-container{
 .play-button-icon:hover{
     font-size: 5rem;
     color:white;
+}
+/* SMALL SCREEN */
+@media only screen and (max-width: 768px) {
+    .movie-poster{
+        height: 300px;
+        border: none;
+        border-radius: 20px;
+        margin-bottom: .5rem;
+    }
+    .movie-title{
+        margin-bottom: 1rem;
+    }    
 }
 
 /*MEDIUM & LARGE SCREEN*/
