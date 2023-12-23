@@ -15,6 +15,8 @@ Run this command in the root directory of your project to start locally the appl
 ```
 npm start
 ```
+<br>
+<br>
 
 ## Website Functionality
 #### Home Page
